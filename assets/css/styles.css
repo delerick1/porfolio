@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html {
-    font-size: 32px;
+    font-size: 20px;
    
 
  }
@@ -12,10 +12,10 @@ html {
      position: center;
  }
 
-.home {
+main {
     background-image: url("../images/Vectores/picmob.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
     
   }
 nav{
@@ -50,6 +50,10 @@ input#menu-hamburguesa ~ ul{
 input#menu-hamburguesa:checked ~ ul{
     right: 0;
 }
+
+.profilepic{
+    position: relative;
+}
 @media only screen and ( min-width: 600px ){
     label{
         display: none;
@@ -76,10 +80,10 @@ input#menu-hamburguesa:checked ~ ul{
         border-bottom: 2px solid transparent;
         transition: border-color .3s linear;
     }
-    .home {
+    main {
         background-image: url("../images/Vectores/picdes.png");
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         
       }
     nav > ul > li > a:hover{
