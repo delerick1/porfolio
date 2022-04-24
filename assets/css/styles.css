@@ -50,10 +50,50 @@ input#menu-hamburguesa ~ ul{
 input#menu-hamburguesa:checked ~ ul{
     right: 0;
 }
-
-.profilepic{
-    position: relative;
+.container {
+    display: flex;
+    flex-direction: column;
 }
+h2{
+    text-align: center;
+    margin: 0 auto 70px;
+    position: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.container > .p1{
+    
+  
+  width: 100%;
+  text-align: center;
+
+}
+.container > .profile{
+    
+    padding: 33%;
+    
+}
+.container > .square{
+background-color: ;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+  width: 100px;
+    
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
 @media only screen and ( min-width: 600px ){
     label{
         display: none;
